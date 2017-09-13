@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- czcionki szukamy na fonts.google - podpinamy jako linki w html lub import w css -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- mozna tez sciagnac cala czczionke lokalnie do projektu, wtedy w css MUSIMY ustawic regule @font-face -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400&amp;subset=latin-ext" rel="stylesheet">
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Main Mavigaion Menu -->
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+                <a class="navbar-brand" href="#main-header"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="main-menu">
+                <ul class="nav navbar-nav text-right">
+                    <li><a href="#about">o mnie</a></li>
+                    <li><a href="#skills">umiejętności</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Mavigaion Menu End -->
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="header-inner">
+            <h1>Tomasz <span>Malski</span></h1>
+            <h2>front-end developer</h2>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!--Section About-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>O <span>mnie</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about-image"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur dadipisicing elit. Quasi possimus, qui tenetur assumenda praesentium atque ut, error doloremque recusandae nisi debitis minus commodi numquam? Provident eaque reiciendis culpa nulla, voluptatem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section About End-->
+
+    <!--Section Skills-->
+    <section id="skills">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2>Moje <span>umiejętności</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus aliquid, enim laboriosam reiciendis atque minima ipsum a, suscipit, unde ea, quidem ex velit doloremque aut quibusdam delectus amet optio consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed facilis minima labore, officia neque ratione officiis alias. Sit excepturi repellendus quisquam ad eaque odit incidunt natus, distinctio earum quis id.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <figure>
+                        <img src="icons/html5.png" alt="html5">
+                        <figcaption>html5</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="icons/css3.png" alt="css3">
+                        <figcaption>css3</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="icons/jquery.png" alt="jquery">
+                        <figcaption>jquery</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="icons/js.png" alt="javascript">
+                        <figcaption>javascript</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Skills End-->
+
+    <!--Section Portfolio-->
+    <section id="portfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <h2>Moje <span>portfolio</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="portfolio-item" id="image_1">
+                        <div class="portfolio-item-mask">
+                            <div class="portfolio-item-border">
+                                <div class="portfolio-item-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis cumque veniam sit non debitis, explicabo, alias id obcaecati, eum excepturi laboriosam numquam saepe deserunt, consectetur! Quisquam quibusdam numquam vitae cum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="portfolio-item" id="image_2">
+                        <div class="portfolio-item-mask">
+                            <div class="portfolio-item-border">
+                                <div class="portfolio-item-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis cumque veniam sit non debitis, explicabo, alias id obcaecati, eum excepturi laboriosam numquam saepe deserunt, consectetur! Quisquam quibusdam numquam vitae cum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="portfolio-item" id="image_3">
+                        <div class="portfolio-item-mask">
+                            <div class="portfolio-item-border">
+                                <div class="portfolio-item-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis cumque veniam sit non debitis, explicabo, alias id obcaecati, eum excepturi laboriosam numquam saepe deserunt, consectetur! Quisquam quibusdam numquam vitae cum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Portfolio End-->
+
+    <!--Section Contact-->
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="text-left">Tomasz <span>Malski</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 other">
+                    <div class="contact-data">
+                        <p>ul. Kazimierza Wielkiego 116/4</p>
+                        <p> 30-082 Kraków</p><br>
+                        <p> tel: 694 417 326</p>
+                        <p>email: <a href="mailto:malski.tomasz@gmail.com">example</a></p>
+                    </div>
+                    <div class="contact-social-icons">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="contact-form">
+                        <form action="">
+                            <input type="text" name="name" placeholder="imię i nazwisko">
+                            <input type="email" name="email" placeholder="Adres e-mail">
+                            <textarea name="message" placeholder="Wiadomość"></textarea>
+                            <input type="submit" value="Wyślij">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Contact End-->
+
+    <!--Footer-->
+    <footer>
+        <p>Copyright &copy; Tomasz Malski</p>
+    </footer>
+
+    <!--Footer End-->
+
+    <!-- jQuery Scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Main Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
